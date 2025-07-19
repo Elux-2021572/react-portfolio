@@ -1,1 +1,87 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Emilio Lux",
+  "headerTaglineOne": "👋Hola, soy Emilio.",
+  "headerTaglineTwo": "Estudiante de Programación",
+  "headerTaglineThree": "con una pasión por la",
+  "headerTaglineFour": "Física y la Tecnología.",
+  "showCursor": true,
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/Elux-2021572"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://linkedin.com/in/emilio-lux-3a479632b"
+    },
+    {
+      "id": "3",
+      "title": "Email",
+      "link": "mailto:emiliojo.lux@gmail.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Gestor Académico Kinal",
+      "description": "Sistema de escritorio para la gestión de notas, alumnos y asignaciones, creado con Java y JavaFX.",
+      "imageSrc": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "url": "https://github.com/Elux-2021572/Gestor_Academico"
+    },
+    {
+      "id": "2",
+      "title": "Calculadora Científica Web",
+      "description": "Una calculadora con funciones científicas construida con React, demostrando la manipulación del estado y componentes.",
+      "imageSrc": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "url": "https://github.com/Elux-2021572/nombre_del_repo_de_la_calculadora"
+    }
+  ],
+  "services": [],
+  "aboutpara": "Soy un desarrollador de software en formación y estudiante de último año de Perito en Informática en Kinal. Mi gran pasión es comprender el universo a través de la ciencia y la filosofía, y mi meta es utilizar la tecnología para generar un impacto social positivo, ya sea trabajando en comunidades científicas como el CERN o mejorando la educación en mi país. Me defino como una persona autodidacta, con pensamiento crítico y una curiosidad insaciable por aprender, especialmente en física y matemáticas.",
+"resume": {
+    "tagline": "👋 Desarrollador de Software con enfoque en Física y Tecnología.",
+    "description": "Mi nombre es Emilio Lux, tengo 18 años y actualmente estoy completando mis 3 años de formación como Perito en Informática. Tengo experiencia en proyectos con tecnologías como Java, React y Node.js, y he trabajado previamente en marketing digital. Mis datos de contacto están disponibles en los enlaces de este portafolio.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "2023 - Presente",
+        "type": "Marketing Digital",
+        "position": "Afiliado en Hotmart",
+        "bullets": "Promoción de productos digitales, aplicando estrategias de marketing online."
+      },
+      {
+        "id": "2",
+        "dates": "2025",
+        "type": "Prácticas Supervisadas",
+        "position": "Aún sin realizar",
+        "bullets": "Próximamente describiré aquí mis responsabilidades y logros durante mis prácticas."
+      }
+    ],
+    "education": {
+      "universityName": "Centro Educativo Técnico Laboral Kinal",
+      "universityDate": "2021 - 2025",
+      "universityPara": "Perito en Informática con especialización en Desarrollo de Software."
+    },
+    "languages": [
+      { "name": "Java (Avanzado)", "logo": "https://www.svgrepo.com/show/452234/java.svg" },
+      { "name": "JavaScript", "logo": "https://www.svgrepo.com/show/349419/javascript.svg" },
+      { "name": "HTML5", "logo": "https://www.svgrepo.com/show/452228/html-5.svg" },
+      { "name": "CSS", "logo": "https://www.svgrepo.com/show/452185/css-3.svg" }
+    ],
+    "frameworks": [
+      { "name": "Jakarta EE (Básico)", "logo": "https://developers.redhat.com/sites/default/files/styles/share/public/blog/2018/04/jakarta_ee_logo_schooner_color_stacked_default.png?itok=jSmlRwki"},
+      { "name": "React", "logo": "https://www.svgrepo.com/show/452092/react.svg" },
+      { "name": "JavaFX", "logo": "https://www.qftest.com/blog/resources/JavaFX.png" },
+      { "name": "Node.js", "logo": "https://www.svgrepo.com/show/452075/node-js.svg" }
+    ],
+    "others": [
+      { "name": "MySQL (Intermedio)", "logo": "https://www.svgrepo.com/show/373848/mysql.svg" },
+      { "name": "MongoDB (Intermedio)", "logo": "https://www.svgrepo.com/show/373845/mongo.svg" },
+      { "name": "Git & GitHub", "logo": "https://cdn.worldvectorlogo.com/logos/github-icon-2.svg" }
+    ]
+  }}

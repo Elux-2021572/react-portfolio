@@ -1,4 +1,7 @@
-import gsap, { Power3 } from "gsap";
+import { gsap, Power3 } from "gsap";
+
+// Esta línea es la que soluciona el error
+gsap.registerPlugin(Power3);
 
 export const stagger = (target, fromvVars, toVars) => {
   return gsap.fromTo(

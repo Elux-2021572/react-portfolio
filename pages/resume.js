@@ -80,7 +80,7 @@ const Resume = () => {
                   </p>
                 </div>
               </div>
-              <div className="mt-5">
+<div className="mt-5">
                 <h1 className="text-2xl font-bold">Skills</h1>
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
@@ -88,8 +88,9 @@ const Resume = () => {
                       <h2 className="text-lg">Languages</h2>
                       <ul className="list-disc">
                         {resume.languages.map((language, index) => (
-                          <li key={index} className="ml-5 py-2">
-                            {language}
+                          <li key={index} className="ml-5 py-2 flex items-center">
+                            <img src={language.logo} alt={`${language.name} logo`} className="w-6 h-6 mr-2"/>
+                            {language.name}
                           </li>
                         ))}
                       </ul>
@@ -101,8 +102,9 @@ const Resume = () => {
                       <h2 className="text-lg">Frameworks</h2>
                       <ul className="list-disc">
                         {resume.frameworks.map((framework, index) => (
-                          <li key={index} className="ml-5 py-2">
-                            {framework}
+                          <li key={index} className="ml-5 py-2 flex items-center">
+                            <img src={framework.logo} alt={`${framework.name} logo`} className="w-6 h-6 mr-2"/>
+                            {framework.name}
                           </li>
                         ))}
                       </ul>
@@ -114,16 +116,16 @@ const Resume = () => {
                       <h2 className="text-lg">Others</h2>
                       <ul className="list-disc">
                         {resume.others.map((other, index) => (
-                          <li key={index} className="ml-5 py-2">
-                            {other}
+                          <li key={index} className="ml-5 py-2 flex items-center">
+                            <img src={other.logo} alt={`${other.name} logo`} className="w-6 h-6 mr-2"/>
+                            {other.name}
                           </li>
                         ))}
                       </ul>
                     </div>
                   )}
                 </div>
-              </div>
-            </div>
+              </div>            </div>
           </div>
         )}
       </div>

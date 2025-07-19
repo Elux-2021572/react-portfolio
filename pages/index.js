@@ -135,7 +135,6 @@ export default function Home() {
             {data.aboutpara}
           </p>
         </div>
-        <Footer />
       </div>
     </div>
   );
