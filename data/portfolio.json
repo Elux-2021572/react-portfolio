@@ -8,80 +8,251 @@
   "showBlog": false,
   "darkMode": true,
   "showResume": true,
+  "showValues": true,
   "socials": [
     {
       "id": "1",
       "title": "Github",
-      "link": "https://github.com/Elux-2021572"
+      "link": "https://github.com/Elux-2021572",
+      "logo": "https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"
     },
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://linkedin.com/in/emilio-lux-3a479632b"
+      "link": "https://linkedin.com/in/emilio-lux-3a479632b",
+      "logo": "https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg"
     },
     {
       "id": "3",
       "title": "Email",
-      "link": "mailto:emiliojo.lux@gmail.com"
+      "link": "mailto:emiliojo.lux@gmail.com",
+      "logo": "https://cdn.worldvectorlogo.com/logos/gmail-icon.svg"
     }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Gestor Académico Kinal",
-      "description": "Sistema de escritorio para la gestión de notas, alumnos y asignaciones, creado con Java y JavaFX.",
-      "imageSrc": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "url": "https://github.com/Elux-2021572/Gestor_Academico"
+      "title": "Proyecto Fresco Express",
+      "description": "Sistema integral de delivery de comida desarrollado para el curso, implementando funcionalidades completas de e-commerce.",
+      "imageSrc": "https://res.cloudinary.com/dwc4ynoj9/image/upload/v1753457017/imagen_2025-07-25_092335433_wimugh.png",
+      "url": "https://github.com/Elux-2021572/IN5BM_Proyecto_FrescoExpress.git"
     },
     {
       "id": "2",
-      "title": "Calculadora Científica Web",
-      "description": "Una calculadora con funciones científicas construida con React, demostrando la manipulación del estado y componentes.",
-      "imageSrc": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      "url": "https://github.com/Elux-2021572/nombre_del_repo_de_la_calculadora"
+      "title": "Review Manager",
+      "description": "Sistema de gestión de opiniones con funcionalidades de interacción social. Mis primeras APIs de backend implementadas.",
+      "imageSrc": "https://res.cloudinary.com/dwc4ynoj9/image/upload/v1753455583/imagen_2025-07-25_085941829_jn9m5w.png",
+      "url": "https://github.com/Elux-2021572/Review_manager.git"
+    },
+    {
+      "id": "3",
+      "title": "Calendar Web",
+      "description": "Aplicación de calendario implementada con JavaScript vanilla cuando empezaba con este tipo de proyectos web.",
+      "imageSrc": "https://res.cloudinary.com/dwc4ynoj9/image/upload/v1753456110/imagen_2025-07-25_090827569_uadakl.png",
+      "url": "https://github.com/Elux-2021572/Calendar-web.git"
+    },
+    {
+      "id": "4",
+      "title": "Banco CCI - Backend",
+      "description": "Sistema bancario completo desarrollado en equipo. Backend con APIs REST para operaciones financieras y gestión de cuentas.",
+      "imageSrc": "https://res.cloudinary.com/dwc4ynoj9/image/upload/v1753455458/imagen_2025-07-25_085736081_jlfr2a.png",
+      "url": "https://github.com/Duo-developers/backend_BankCCI.git"
+    },
+    {
+      "id": "5",
+      "title": "Banco CCI - Frontend",
+      "description": "Interfaz de usuario del sistema bancario. Frontend moderno que consume las APIs del backend para brindar experiencia completa.",
+      "imageSrc": "https://res.cloudinary.com/dwc4ynoj9/image/upload/v1753457365/imagen_2025-07-25_092923761_h94zhe.png",
+      "url": "https://github.com/Duo-developers/frontend_BankCCI.git"
     }
   ],
   "services": [],
-  "aboutpara": "Soy un desarrollador de software en formación y estudiante de último año de Perito en Informática en Kinal. Mi gran pasión es comprender el universo a través de la ciencia y la filosofía, y mi meta es utilizar la tecnología para generar un impacto social positivo, ya sea trabajando en comunidades científicas como el CERN o mejorando la educación en mi país. Me defino como una persona autodidacta, con pensamiento crítico y una curiosidad insaciable por aprender, especialmente en física y matemáticas.",
+  "aboutpara": "Soy Emilio, un joven guatemalteco con la firme convicción de que la ciencia y la filosofía pueden cambiar el mundo. Desde niño me ha impulsado una necesidad profunda por entender cómo funciona el universo —y cómo podemos vivir mejor dentro de él.\n\nMi historia ha estado marcada por momentos difíciles, pero también por una familia que me enseñó el valor de la sabiduría, el esfuerzo y el amor. A través de los años, he trabajado para construir un camino que combine mi pasión por la física, la matemática, la conciencia social y el pensamiento crítico.\n\nHe participado en proyectos de divulgación científica, desarrollado software útil para mi comunidad, y me estoy preparando para estudiar Física y contribuir algún día en espacios como el CERN o el desarrollo tecnológico con propósito humano.\n\nEste portafolio es una muestra de lo que he hecho y de todo lo que aún quiero construir. Porque no quiero solo entender el mundo… quiero ayudar a mejorarlo.",
 "resume": {
+    "profileImage": "https://res.cloudinary.com/dwc4ynoj9/image/upload/v1753454417/Photo_hg4g3o.jpg",
     "tagline": "👋 Desarrollador de Software con enfoque en Física y Tecnología.",
-    "description": "Mi nombre es Emilio Lux, tengo 18 años y actualmente estoy completando mis 3 años de formación como Perito en Informática. Tengo experiencia en proyectos con tecnologías como Java, React y Node.js, y he trabajado previamente en marketing digital. Mis datos de contacto están disponibles en los enlaces de este portafolio.",
+    "description": "Mi nombre es Emilio Lux, tengo 18 años y estoy completando mis 3 años de formación como Perito en Informática. Busco oportunidades para aplicar mis habilidades en proyectos que tengan un componente científico o de investigación. Mis datos de contacto están disponibles en los enlaces de este portafolio.",
     "experiences": [
       {
         "id": "1",
-        "dates": "2023 - Presente",
+        "dates": "Febrero (2023) - Junio (2024) [1 año con 5 meses]",
         "type": "Marketing Digital",
         "position": "Afiliado en Hotmart",
-        "bullets": "Promoción de productos digitales, aplicando estrategias de marketing online."
+        "company": "Hotmart",
+        "logo": "https://play-lh.googleusercontent.com/XVaql8AKsVxmq4A02jdhHIzJetb_gxUYrFG9UHld6M2MjSjyHC40cbFr6JdKqsxScKc",
+        "bullets": [
+          "Desarrollo y ejecución de estrategias orgánicas de marketing digital para la venta de infoproductos.",
+          "Gestioné campañas publicitarias que incrementaron la interacción con nuestro público.",
+          "Atención al cliente y asesoramiento personalizado en productos digitales."
+        ]
       },
       {
         "id": "2",
         "dates": "2025",
         "type": "Prácticas Supervisadas",
-        "position": "Aún sin realizar",
-        "bullets": "Próximamente describiré aquí mis responsabilidades y logros durante mis prácticas."
+        "position": "TELUS",
+        "company": "TELUS",
+        "logo": "https://mma.prnewswire.com/media/2618273/TELUS_Corporation_TELUS_reports_robust_operational_and_financial.jpg?p=facebook",
+        "bullets": [
+          "Prácticas profesionales supervisadas en desarrollo de software.",
+          "Aplicación de conocimientos técnicos en proyectos reales.",
+          "Colaboración en equipos de desarrollo ágil."
+        ]
       }
     ],
-    "education": {
-      "universityName": "Centro Educativo Técnico Laboral Kinal",
-      "universityDate": "2021 - 2025",
-      "universityPara": "Perito en Informática con especialización en Desarrollo de Software."
-    },
+    "education": [
+      {
+        "degree": "Perito en Informática",
+        "institution": "Centro Educativo Técnico Laboral Kinal",
+        "dates": "2023 - Presente",
+        "status": "(Cursando Sexto Grado)"
+      },
+      {
+        "degree": "Nivel Básico",
+        "institution": "Centro Educativo Técnico Laboral Kinal", 
+        "dates": "2021 - 2022",
+        "status": "Completado"
+      },
+      {
+        "degree": "Nivel Básico",
+        "institution": "Instituto Dr. Carlos Federico Mora",
+        "dates": "2020 - 2020",
+        "status": "Completado"
+      }
+    ],
     "languages": [
-      { "name": "Java (Avanzado)", "logo": "https://www.svgrepo.com/show/452234/java.svg" },
-      { "name": "JavaScript", "logo": "https://www.svgrepo.com/show/349419/javascript.svg" },
-      { "name": "HTML5", "logo": "https://www.svgrepo.com/show/452228/html-5.svg" },
-      { "name": "CSS", "logo": "https://www.svgrepo.com/show/452185/css-3.svg" }
+      { 
+        "name": "Java (Avanzado)", 
+        "logo": "https://www.svgrepo.com/show/452234/java.svg",
+        "description": "Lenguaje de programación",
+        "percentage": "85% de habilidad"
+      },
+      { 
+        "name": "JavaScript", 
+        "logo": "https://www.svgrepo.com/show/349419/javascript.svg",
+        "description": "Lenguaje de programación web",
+        "percentage": "75% de habilidad"
+      },
+      { 
+        "name": "HTML5", 
+        "logo": "https://www.svgrepo.com/show/452228/html-5.svg",
+        "description": "Lenguaje de marcado",
+        "percentage": "90% de habilidad"
+      },
+      { 
+        "name": "CSS", 
+        "logo": "https://www.svgrepo.com/show/452185/css-3.svg",
+        "description": "Hojas de estilo",
+        "percentage": "80% de habilidad"
+      }
     ],
     "frameworks": [
-      { "name": "Jakarta EE (Básico)", "logo": "https://developers.redhat.com/sites/default/files/styles/share/public/blog/2018/04/jakarta_ee_logo_schooner_color_stacked_default.png?itok=jSmlRwki"},
-      { "name": "React", "logo": "https://www.svgrepo.com/show/452092/react.svg" },
-      { "name": "JavaFX", "logo": "https://www.qftest.com/blog/resources/JavaFX.png" },
-      { "name": "Node.js", "logo": "https://www.svgrepo.com/show/452075/node-js.svg" }
+      { 
+        "name": "Jakarta EE (Básico)", 
+        "logo": "https://developers.redhat.com/sites/default/files/styles/share/public/blog/2018/04/jakarta_ee_logo_schooner_color_stacked_default.png?itok=jSmlRwki",
+        "description": "Framework empresarial",
+        "percentage": "20% de habilidad"
+      },
+      { 
+        "name": "React", 
+        "logo": "https://www.svgrepo.com/show/452092/react.svg",
+        "description": "Framework de JavaScript",
+        "percentage": "60% de habilidad"
+      },
+      { 
+        "name": "JavaFX", 
+        "logo": "https://www.qftest.com/blog/resources/JavaFX.png",
+        "description": "Framework de Java",
+        "percentage": "70% de habilidad"
+      },
+      { 
+        "name": "Node.js", 
+        "logo": "https://www.svgrepo.com/show/452075/node-js.svg",
+        "description": "Entorno de ejecución",
+        "percentage": "60% de habilidad"
+      }
     ],
     "others": [
-      { "name": "MySQL (Intermedio)", "logo": "https://www.svgrepo.com/show/373848/mysql.svg" },
-      { "name": "MongoDB (Intermedio)", "logo": "https://www.svgrepo.com/show/373845/mongo.svg" },
-      { "name": "Git & GitHub", "logo": "https://cdn.worldvectorlogo.com/logos/github-icon-2.svg" }
+      { 
+        "name": "MySQL (Intermedio)", 
+        "logo": "https://www.svgrepo.com/show/373848/mysql.svg",
+        "description": "Gestor de Bases de Datos",
+        "percentage": "75% de habilidad"
+      },
+      { 
+        "name": "MongoDB (Intermedio)", 
+        "logo": "https://www.svgrepo.com/show/373845/mongo.svg",
+        "description": "Base de datos NoSQL",
+        "percentage": "70% de habilidad"
+      },
+      { 
+        "name": "Git & GitHub", 
+        "logo": "https://cdn.worldvectorlogo.com/logos/github-icon-2.svg",
+        "description": "Control de versiones",
+        "percentage": "75% de habilidad"
+      }
+    ]
+  },
+  "values": {
+    "title": "Valores Profesionales",
+    "description": "Los principios que guían mi desarrollo profesional y personal en el mundo de la tecnología.",
+    "professionalValues": [
+      {
+        "id": "1",
+        "name": "Curiosidad insaciable",
+        "description": "Una sed constante de conocimiento que me impulsa a explorar desde los misterios del cosmos hasta los detalles más pequeños de la programación."
+      },
+      {
+        "id": "2", 
+        "name": "Disciplina",
+        "description": "La constancia y el método como herramientas fundamentales para alcanzar objetivos complejos y duraderos."
+      },
+      {
+        "id": "3",
+        "name": "Ética y verdad",
+        "description": "Compromiso inquebrantable con la honestidad intelectual y la responsabilidad social en todo lo que hago."
+      },
+      {
+        "id": "4",
+        "name": "Pasión por aprender", 
+        "description": "Cada día es una oportunidad para descubrir algo nuevo y expandir los límites de mi comprensión del mundo."
+      },
+      {
+        "id": "5",
+        "name": "Minimalismo reflexivo",
+        "description": "Buscar la esencia y la simplicidad consciente, enfocándome en lo que realmente importa para generar impacto."
+      }
+    ],
+    "personalBrand": {
+      "title": "Mi Marca Personal",
+      "description": "El universo se expande. Y yo también.",
+      "mission": "Siempre he buscado la intersección entre la ciencia y la tecnología."
+    }
+  },
+  "contact": {
+    "title": "Contáctame",
+    "description": "¿Tienes un proyecto en mente o quieres saber más sobre mi trabajo? No dudes en contactarme. Estoy siempre abierto a nuevas oportunidades y colaboraciones.",
+    "email": "emiliojo.lux@gmail.com",
+    "phone": "",
+    "address": "Guatemala",
+    "socials": [
+      {
+        "id": "1",
+        "title": "Github",
+        "link": "https://github.com/Elux-2021572",
+        "icon": "github"
+      },
+      {
+        "id": "2",
+        "title": "LinkedIn",
+        "link": "https://linkedin.com/in/emilio-lux-3a479632b",
+        "icon": "linkedin"
+      },
+      {
+        "id": "3",
+        "title": "Email",
+        "link": "mailto:emiliojo.lux@gmail.com",
+        "icon": "email"
+      }
     ]
   }}

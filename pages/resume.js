@@ -45,11 +45,24 @@ const Resume = () => {
                 mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
               } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
             >
-              <h1 className="text-3xl font-bold">{name}</h1>
-              <h2 className="text-xl mt-5">{resume.tagline}</h2>
-              <h2 className="w-4/5 text-xl mt-5 opacity-50">
-                {resume.description}
-              </h2>
+              <div className="flex mob:flex-col desktop:flex-row items-start gap-6 mb-8">
+                <div className="mob:w-full desktop:w-3/4">
+                  <h1 className="text-3xl font-bold">{name}</h1>
+                  <h2 className="text-xl mt-5">{resume.tagline}</h2>
+                  <h2 className="w-full text-xl mt-5 opacity-50">
+                    {resume.description}
+                  </h2>
+                </div>
+                {resume.profileImage && (
+                  <div className="mob:w-full desktop:w-1/4 flex justify-center">
+                    <img 
+                      src={resume.profileImage} 
+                      alt={`${name} profile`}
+                      className="w-32 h-32 rounded-full object-cover shadow-lg"
+                    />
+                  </div>
+                )}
+              </div>
               <div className="mt-2">
                 <Socials />
               </div>
@@ -57,71 +70,89 @@ const Resume = () => {
                 <h1 className="text-2xl font-bold">Experience</h1>
 
                 {resume.experiences.map(
-                  ({ id, dates, type, position, bullets }) => (
+                  ({ id, dates, type, position, bullets, company, logo }) => (
                     <ProjectResume
                       key={id}
                       dates={dates}
                       type={type}
                       position={position}
                       bullets={bullets}
+                      company={company}
+                      logo={logo}
                     ></ProjectResume>
                   )
                 )}
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Education</h1>
-                <div className="mt-2">
-                  <h2 className="text-lg">{resume.education.universityName}</h2>
-                  <h3 className="text-sm opacity-75">
-                    {resume.education.universityDate}
-                  </h3>
-                  <p className="text-sm mt-2 opacity-50">
-                    {resume.education.universityPara}
-                  </p>
+                <div className="mt-2 space-y-4">
+                  {resume.education.map((edu, index) => (
+                    <div key={index} className="border-l-2 border-blue-500 pl-4">
+                      <h2 className="text-lg font-semibold">{edu.degree}</h2>
+                      <h3 className="text-md text-blue-600 dark:text-blue-400">{edu.institution}</h3>
+                      <div className="flex items-center gap-2 text-sm opacity-75 mt-1">
+                        <span>{edu.dates}</span>
+                        {edu.status && <span className="bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded-full text-xs">{edu.status}</span>}
+                      </div>
+                      <p className="text-sm mt-2 opacity-50">{edu.description}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
 <div className="mt-5">
                 <h1 className="text-2xl font-bold">Skills</h1>
-                <div className="flex mob:flex-col desktop:flex-row justify-between">
+                <div className="grid mob:grid-cols-1 desktop:grid-cols-3 gap-6 mt-5">
                   {resume.languages && (
-                    <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Languages</h2>
-                      <ul className="list-disc">
+                    <div>
+                      <h2 className="text-lg mb-3">Languages</h2>
+                      <div className="space-y-4">
                         {resume.languages.map((language, index) => (
-                          <li key={index} className="ml-5 py-2 flex items-center">
-                            <img src={language.logo} alt={`${language.name} logo`} className="w-6 h-6 mr-2"/>
-                            {language.name}
-                          </li>
+                          <div key={index} className="bg-white dark:bg-slate-700 p-4 rounded-lg shadow-sm border">
+                            <div className="flex items-center mb-2">
+                              <img src={language.logo} alt={`${language.name} logo`} className="w-8 h-8 mr-3"/>
+                              <h3 className="font-semibold">{language.name}</h3>
+                            </div>
+                            <p className="text-sm text-gray-600 dark:text-gray-300 mb-1">{language.description}</p>
+                            <p className="text-sm font-medium text-blue-600 dark:text-blue-400">{language.percentage}</p>
+                          </div>
                         ))}
-                      </ul>
+                      </div>
                     </div>
                   )}
 
                   {resume.frameworks && (
-                    <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Frameworks</h2>
-                      <ul className="list-disc">
+                    <div>
+                      <h2 className="text-lg mb-3">Frameworks</h2>
+                      <div className="space-y-4">
                         {resume.frameworks.map((framework, index) => (
-                          <li key={index} className="ml-5 py-2 flex items-center">
-                            <img src={framework.logo} alt={`${framework.name} logo`} className="w-6 h-6 mr-2"/>
-                            {framework.name}
-                          </li>
+                          <div key={index} className="bg-white dark:bg-slate-700 p-4 rounded-lg shadow-sm border">
+                            <div className="flex items-center mb-2">
+                              <img src={framework.logo} alt={`${framework.name} logo`} className="w-8 h-8 mr-3"/>
+                              <h3 className="font-semibold">{framework.name}</h3>
+                            </div>
+                            <p className="text-sm text-gray-600 dark:text-gray-300 mb-1">{framework.description}</p>
+                            <p className="text-sm font-medium text-blue-600 dark:text-blue-400">{framework.percentage}</p>
+                          </div>
                         ))}
-                      </ul>
+                      </div>
                     </div>
                   )}
 
                   {resume.others && (
-                    <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Others</h2>
-                      <ul className="list-disc">
+                    <div>
+                      <h2 className="text-lg mb-3">Others</h2>
+                      <div className="space-y-4">
                         {resume.others.map((other, index) => (
-                          <li key={index} className="ml-5 py-2 flex items-center">
-                            <img src={other.logo} alt={`${other.name} logo`} className="w-6 h-6 mr-2"/>
-                            {other.name}
-                          </li>
+                          <div key={index} className="bg-white dark:bg-slate-700 p-4 rounded-lg shadow-sm border">
+                            <div className="flex items-center mb-2">
+                              <img src={other.logo} alt={`${other.name} logo`} className="w-8 h-8 mr-3"/>
+                              <h3 className="font-semibold">{other.name}</h3>
+                            </div>
+                            <p className="text-sm text-gray-600 dark:text-gray-300 mb-1">{other.description}</p>
+                            <p className="text-sm font-medium text-blue-600 dark:text-blue-400">{other.percentage}</p>
+                          </div>
                         ))}
-                      </ul>
+                      </div>
                     </div>
                   )}
                 </div>
