@@ -42,30 +42,41 @@ const Values = () => {
           <div className="mt-10 w-full flex flex-col items-center">
             <div
               className={`w-full ${
-                mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
-              } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
+                mount && theme.theme === "dark" 
+                  ? "bg-slate-900" 
+                  : "bg-gray-50"
+              } max-w-4xl p-8 tablet:p-12 laptop:p-20 rounded-xl`}
             >
-              <h1 className="text-3xl font-bold">{values.title}</h1>
-              <p className="text-xl mt-5 opacity-50">
+              <h1 className="text-3xl laptop:text-4xl font-bold text-center mb-6">
+                {values.title}
+              </h1>
+              <p className="text-lg laptop:text-xl text-center mb-8 opacity-80">
                 {values.description}
               </p>
-              <div className="mt-2">
+              
+              <div className="mt-4 flex justify-center">
                 <Socials />
               </div>
 
               {/* Valores Profesionales */}
-              <div className="mt-8">
-                <h2 className="text-2xl font-bold mb-6">Mis Valores</h2>
+              <div className="mt-10">
+                <h2 className="text-2xl laptop:text-3xl font-bold mb-8 text-center">
+                  Mis Valores
+                </h2>
                 <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-6">
                   {values.professionalValues.map((value) => (
                     <div
                       key={value.id}
-                      className="bg-white dark:bg-slate-700 p-6 rounded-lg shadow-sm border"
+                      className={`${
+                        mount && theme.theme === "dark" 
+                          ? "bg-slate-800 hover:bg-slate-700" 
+                          : "bg-white hover:bg-gray-50"
+                      } p-6 rounded-xl shadow-lg border border-gray-200 dark:border-slate-600 hover:shadow-xl transition-all duration-300`}
                     >
                       <h3 className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-3">
                         {value.name}
                       </h3>
-                      <p className="text-sm opacity-70">
+                      <p className="text-sm leading-relaxed opacity-90">
                         {value.description}
                       </p>
                     </div>
@@ -75,12 +86,18 @@ const Values = () => {
 
               {/* Marca Personal */}
               <div className="mt-12">
-                <h2 className="text-2xl font-bold mb-6">{values.personalBrand.title}</h2>
-                <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-slate-700 dark:to-slate-600 p-8 rounded-lg">
-                  <blockquote className="text-xl italic text-center mb-4">
+                <h2 className="text-2xl laptop:text-3xl font-bold mb-8 text-center">
+                  {values.personalBrand.title}
+                </h2>
+                <div className={`${
+                  mount && theme.theme === "dark" 
+                    ? "bg-gradient-to-r from-slate-800 to-slate-700" 
+                    : "bg-gradient-to-r from-blue-50 to-purple-50"
+                } p-8 rounded-xl shadow-lg`}>
+                  <blockquote className="text-xl laptop:text-2xl italic text-center mb-6 font-medium">
                     &ldquo;{values.personalBrand.description}&rdquo;
                   </blockquote>
-                  <p className="text-lg text-center opacity-80">
+                  <p className="text-lg laptop:text-xl text-center leading-relaxed opacity-90">
                     {values.personalBrand.mission}
                   </p>
                 </div>

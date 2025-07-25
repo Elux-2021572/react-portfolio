@@ -120,9 +120,11 @@ export default function Home() {
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="text-2xl text-bold mb-8 laptop:mb-12">About.</h1>
           <div className="max-w-4xl">
-            <p className="text-lg laptop:text-xl leading-relaxed laptop:leading-relaxed text-gray-700 dark:text-gray-300 whitespace-pre-line">
-              {data.aboutpara}
-            </p>
+            <div className="bg-white dark:bg-slate-800 p-8 laptop:p-12 rounded-xl shadow-lg border border-gray-200 dark:border-slate-600">
+              <p className="text-lg laptop:text-xl leading-relaxed laptop:leading-relaxed text-gray-700 dark:text-gray-300 whitespace-pre-line">
+                {data.aboutpara}
+              </p>
+            </div>
           </div>
         </div>
       </div>
