@@ -11,7 +11,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const { name, showBlog, showResume, showValues } = data;
+  const { name, showBlog, showResume, showValues, showMCI } = data;
 
   useEffect(() => {
     setMounted(true);
@@ -88,6 +88,13 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       Values
                     </Button>
                   )}
+                  {showMCI && (
+                    <Button
+                      onClick={() => router.push("/mci")}
+                    >
+                      MCI
+                    </Button>
+                  )}
 
                   <Button
                     onClick={() => window.open("mailto:emiliojo.lux@gmail.com")}
@@ -157,6 +164,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Values
               </Button>
             )}
+            {showMCI && (
+              <Button
+                onClick={() => router.push("/mci")}
+                classes="first:ml-1"
+              >
+                MCI
+              </Button>
+            )}
 
             <Button onClick={() => window.open("mailto:emiliojo.lux@gmail.com")}>
               Contact
@@ -192,6 +207,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 classes="first:ml-1"
               >
                 Valores
+              </Button>
+            )}
+            {showMCI && (
+              <Button
+                onClick={() => router.push("/mci")}
+                classes="first:ml-1"
+              >
+                MCI
               </Button>
             )}
 

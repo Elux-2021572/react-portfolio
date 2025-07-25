@@ -9,6 +9,7 @@
   "darkMode": true,
   "showResume": true,
   "showValues": true,
+  "showMCI": true,
   "socials": [
     {
       "id": "1",
@@ -255,4 +256,10 @@
         "icon": "email"
       }
     ]
-  }}
+  },
+  "mci": {
+    "title": "Mi MCI Profesional – Emilio Lux",
+    "description": "Un recorrido por mi desarrollo científico, tecnológico y humano en los últimos tres años.",
+    "content": "En los últimos tres años he construido un camino enfocado en el desarrollo científico, tecnológico y humano. Comencé sin tener un propósito claro sobre lo que quería hacer de mi vida, hasta que logré conectar la filosofía con mi persona y fue así como empecé aplicando mis habilidades en marketing digital dentro de Hotmart, donde comprendí cómo funciona el entorno comercial y tecnológico del aprendizaje en línea, logré comprender que la venta es una de las habilidades más importantes que podemos tener, si eres muy bueno en algo pero no sabes cómo venderlo, es igual a no saber hacerlo.\n\nCon el tiempo, pensé que mi verdadera pasión estaba en la programación pero otra con el pasar del tiempo descubrí que mi verdadera pasión estaba en la ciencia, la filosofía y la educación. Me enfoqué en aprender física, matemáticas aplicadas y pensamiento crítico, impulsado por el deseo de entender el universo y transformar mi comunidad.\n\nDurante este proceso, he trabajado en proyectos de programación con JavaScript, React, Tailwind y Node.js, creando soluciones útiles para la comunidad, como plataformas de reservas de hoteles, herramientas educativas y páginas de divulgación científica.\n\nAdemás, he fortalecido mis habilidades de comunicación, liderazgo, aprendizaje autodidacta y resiliencia emocional. Me considero una persona que aprende con rapidez, que se cuestiona constantemente y que trabaja con propósito.\n\nMi camino profesional no ha sido lineal, pero ha sido profundamente intencional."
+  }
+}
