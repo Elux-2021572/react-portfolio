@@ -78,7 +78,7 @@ const Values = () => {
                 <h2 className="text-2xl font-bold mb-6">{values.personalBrand.title}</h2>
                 <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-slate-700 dark:to-slate-600 p-8 rounded-lg">
                   <blockquote className="text-xl italic text-center mb-4">
-                    "{values.personalBrand.description}"
+                    &ldquo;{values.personalBrand.description}&rdquo;
                   </blockquote>
                   <p className="text-lg text-center opacity-80">
                     {values.personalBrand.mission}
