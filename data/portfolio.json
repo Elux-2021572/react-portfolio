@@ -18,12 +18,6 @@
       "logo": "https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"
     },
     {
-      "id": "2",
-      "title": "LinkedIn",
-      "link": "https://linkedin.com/in/emilio-lux-3a479632b",
-      "logo": "https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg"
-    },
-    {
       "id": "3",
       "title": "Email",
       "link": "mailto:emiliojo.lux@gmail.com",
@@ -242,12 +236,6 @@
         "title": "Github",
         "link": "https://github.com/Elux-2021572",
         "icon": "github"
-      },
-      {
-        "id": "2",
-        "title": "LinkedIn",
-        "link": "https://linkedin.com/in/emilio-lux-3a479632b",
-        "icon": "linkedin"
       },
       {
         "id": "3",
